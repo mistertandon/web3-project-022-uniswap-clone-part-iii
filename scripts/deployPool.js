@@ -88,3 +88,28 @@ main()
     console.log("error", error);
     process.exit(1);
   });
+/**
+ * 
+ console.log("Pool tx: ", poolTx);
+ {
+  type: 2,
+  accessList: [],
+  blockHash: '0x0274f0b19a8a3d9add58640fa56980df3259c68914173a7bc3dcc5d7ee6b6fa6',
+  blockNumber: 18185067,
+  transactionIndex: 0,
+  confirmations: 1,
+  from: '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266',
+  gasPrice: BigNumber { value: "23212612" },
+  maxPriorityFeePerGas: BigNumber { value: "5564005" },
+  maxFeePerGas: BigNumber { value: "23212612" },
+  gasLimit: BigNumber { value: "5000000" },
+  to: '0xa68E430060f74F9821D2dC9A9E2CE3aF7d842EBe',
+  value: BigNumber { value: "0" },
+  nonce: 572,
+  data: '0x13ead5620000000000000000000000008b64968f69e669facc86fa3484fd946f1bbe7c910000000000000000000000009a86494ba45ee1f9eeed9cfc0894f6c5d13a1f0b00000000000000000000000000000000000000000000000000000000000001f4000000000000000000000000000000000  r: '0x23ff44854e710c5815a7685037ec2368c4ac3faa715f8871c571e520a2a11ed6',
+  v: 0,
+  creates: null,
+  chainId: 31337,
+}
+Pool address is 0x4fc0f416Dc7676620C49F2e96FEBa9644E6865EA
+ */
