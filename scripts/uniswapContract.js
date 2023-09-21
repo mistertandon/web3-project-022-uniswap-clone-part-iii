@@ -117,6 +117,7 @@ async function main() {
 
   console.log("WETH address", weth.address);
   console.log("factory address", factory.address);
+  console.log("swapRouter address", swapRouter.address);
   console.log("nftDescriptor address", nftDescriptor.address);
   console.log(
     "nonfungibleTokenPositionDescriptor address",

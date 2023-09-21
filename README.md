@@ -80,11 +80,12 @@ npm i hardhat-tracer
   > npm install @uniswap/smart-order-router@2.5.30
 
    - Uninstall following packages
-  > npm uninstall @nomicfoundation/hardhat-toolbox
   > npm uninstall hardhat
+  > npm uninstall @nomicfoundation/hardhat-toolbox
   > npm uninstall @uniswap/v3-periphery
   > npm uninstall web3modal
    - Install following packages
+  > npm install hardhat@2.11.1
   > npm i @nomiclabs/hardhat-ethers@2.1.1
   > npm i @nomiclabs/hardhat-waffle@2.0.3
   > npm install @uniswap/v3-periphery@1.0.1
@@ -93,5 +94,23 @@ npm i hardhat-tracer
   > npm i ethereum-waffle@3.4.4
   > npm i jsbi@3.2.5
   > npm i web3modal@1.9.9
+  
 
 
+ > npx hardhat run scripts/uniswapContract.js --network localhost
+ > npx hardhat run scripts/uniswapContract.js --network localhost
+
+const WETHAddress = "0xf18774574148852771c2631d7d06E2A6c8b44fCA";
+const factoryAddress = "0x9f62EE65a8395824Ee0821eF2Dc4C947a23F0f25";
+const swapRouterAddress = "0x20BBE62B175134D21b10C157498b663F048672bA";
+const nftDescriptorAddress = "0x3AeEBbEe7CE00B11cB202d6D0F38D696A3f4Ff8e";
+const nonfungibleTokenPositionDescriptorAddress =
+  "0xB2ff9d5e60d68A52cea3cd041b32f1390A880365";
+const nonfungiblePositionMangerAddress =
+  "0xa68E430060f74F9821D2dC9A9E2CE3aF7d842EBe";
+
+const parveshAddress = "0x8B64968F69E669faCc86FA3484FD946f1bBE7c91";
+const payalAddress = "0x9A86494Ba45eE1f9EEed9cFC0894f6C5d13a1F0b";
+const jiyanshiAddress = "0xC0340c0831Aa40A0791cF8C3Ab4287EB0a9705d8";
+
+Pool address is 0x4fc0f416Dc7676620C49F2e96FEBa9644E6865EA
