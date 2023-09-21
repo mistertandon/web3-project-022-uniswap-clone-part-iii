@@ -83,6 +83,7 @@ npm i hardhat-tracer
   > npm uninstall @nomicfoundation/hardhat-toolbox
   > npm uninstall hardhat
   > npm uninstall @uniswap/v3-periphery
+  > npm uninstall web3modal
    - Install following packages
   > npm i @nomiclabs/hardhat-ethers@2.1.1
   > npm i @nomiclabs/hardhat-waffle@2.0.3
@@ -90,3 +91,7 @@ npm i hardhat-tracer
   > npm i @uniswap/v3-sdk@3.9.0
   > npm i bignumber.js@9.1.0
   > npm i ethereum-waffle@3.4.4
+  > npm i jsbi@3.2.5
+  > npm i web3modal@1.9.9
+
+
